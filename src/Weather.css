@@ -1,0 +1,19 @@
+/* The container must be positioned relative: */
+.main {
+  position: relative;
+  top : 50px;
+  left : 100px;
+}
+
+/* Styling for select tag within section tag within the main container. */
+.main section select{
+  width : 200px;
+  height : 40px;
+  color : rgb(245, 246, 248);
+  background-color: black;
+}
+
+/* Color change when selecting a city option from the dropdown. */
+.main section select:hover{
+    background-color: teal;
+}
